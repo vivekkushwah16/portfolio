@@ -27,6 +27,10 @@ export const frontendSkills = [
     name: "GIT",
     level: "INTERMEDIATE",
   },
+  {
+    name: "Storybook",
+    level: "INTERMEDIATE",
+  },
 ];
 
 export const backendSkills = [

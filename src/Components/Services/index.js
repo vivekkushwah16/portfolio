@@ -14,11 +14,12 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Front-End <br /> Developer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
-            View More <i className="uil uil-arrow-right services__button-icon"></i>
+            View More{" "}
+            <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div
             className={`services__modal ${toggle === 1 ? "active-modal" : ""}`}
@@ -28,26 +29,29 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => setToggle(0)}
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title"> Front-End Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 1 years of experience. Providing quality
                 work to clients and companies.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Optimizing the user experience.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development. </p>
+                  <p className="services__modal-info">
+                    Creating tools that improve site interaction regardless of
+                    the browser.
+                  </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
+                    Implementing design on mobile websites.
                   </p>
                 </li>{" "}
                 <li className="services__modal-service">
@@ -59,7 +63,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Fixing bugs and testing for usability.
                   </p>
                 </li>
               </ul>

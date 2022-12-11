@@ -23,17 +23,29 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__social">
-          <a rel="noreferrer"
+          <a
+            rel="noreferrer"
             href="mailto:Vivekkushwah714@gmail.com.com"
             className="footer__social-link"
             target={"_blank"}
           >
             <i className="bx bxs-envelope"></i>
           </a>
-          <a rel="noreferrer" href="" className="footer__social-link" target={"_blank"}>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/vivek-kushwah-997b14211/"
+            className="footer__social-link"
+            target={"_blank"}
+          >
             <i className="bx bxl-linkedin-square"></i>
           </a>
-          <a rel="noreferrer" href="" className="footer__social-link" target={"_blank"}>
+          <a
+            href="https://github.com/vivekkushwah16"
+            rel="noreferrer"
+            c
+            className="footer__social-link"
+            target={"_blank"}
+          >
             <i className="bx bxl-github"></i>
           </a>
         </div>

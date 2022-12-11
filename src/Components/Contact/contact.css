@@ -28,22 +28,23 @@
 
 .contact__card-icon {
   font-size: 2rem;
-  color: var (--title-color);
+  color: var(--title-color);
   margin-bottom: var(--mb-0-25);
 }
 
 .contact__card-title,
 .contact__card-data {
-  font-size: var(-- small-font- size);
+  font-size: var(--small-font-size);
 }
 
 .contact__card-title {
-  font-weight: var(--font - medium);
+  font-weight: var(--font-medium);
 }
 
 .contact__card-data {
   display: block;
   margin-bottom: var(--mb-0-75);
+  color: var(--text-color);
 }
 
 .contact__button {
@@ -142,4 +143,3 @@
     width: 100%;
   }
 }
-
