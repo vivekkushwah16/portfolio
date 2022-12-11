@@ -60,7 +60,10 @@ const Contact = () => {
               >
                 https://www.linkedin.com/in/vivek-kushwah-997b14211/
               </a>
-              <a href="" className="contact__button ">
+              <a
+                href="https://www.linkedin.com/in/vivek-kushwah-997b14211/"
+                className="contact__button "
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
