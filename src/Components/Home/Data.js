@@ -1,5 +1,4 @@
 import React from "react";
-import Hand from "../../assets/hand";
 import Lottie from "react-lottie-player";
 import lottieJson from "../../assets/hand.json";
 const Data = () => {
