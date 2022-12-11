@@ -1,10 +1,18 @@
-import React from 'react'
-import Hand from '../../assets/hand'
+import React from "react";
+import Hand from "../../assets/hand";
+import Lottie from "react-lottie-player";
+import lottieJson from "../../assets/hand.json";
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Vivek Kushwah <Hand />
+        Vivek Kushwah{" "}
+        <Lottie
+          loop
+          animationData={lottieJson}
+          play
+          style={{ width: 50, height: 50 }}
+        />
       </h1>
       <h3 className="home__subtitle">Frontend Developer.</h3>
       <p className="home__description">
@@ -33,6 +41,6 @@ const Data = () => {
       </a>
     </div>
   );
-}
+};
 
-export default Data
+export default Data;
