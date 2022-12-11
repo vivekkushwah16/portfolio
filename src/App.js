@@ -21,6 +21,14 @@ function App() {
         <Qualification />
         <Testimonials />
         <Contact />
+        <ul class="background__animation">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </main>
       <Footer />
     </>
